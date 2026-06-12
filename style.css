@@ -42,7 +42,7 @@ body{
   linear-gradient(rgba(0,0,0,0.5),
   rgba(0,0,0,0.5)),
 
-  url('https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?q=80&w=1400&auto=format&fit=crop');
+  url('https://www.lego.com/cdn/cs/set/assets/blt05cf4b74ee94dd14/75337.png?format=webply&fit=bounds&quality=70&width=800&height=800&dpr=1.5');
 
   background-size:cover;
 
@@ -143,12 +143,17 @@ body{
 
 
 /* IMÁGENES */
-
 .producto-card img{
 
   height:250px;
 
-  object-fit:cover;
+  width:100%;
+
+  object-fit:contain;
+
+  background:white;
+
+  padding:15px;
 
   transition:0.5s;
 }
