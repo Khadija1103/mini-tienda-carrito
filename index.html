@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <!-- CONFIGURACIÓN -->
+  <meta charset="UTF-8">
+
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Mi Mundo LEGO</title>
+
+
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect"
+  href="https://fonts.googleapis.com">
+
+  <link rel="preconnect"
+  href="https://fonts.gstatic.com"
+  crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;700&display=swap"
+  rel="stylesheet">
+
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+  <!-- ======================= -->
+  <!-- NAVBAR -->
+  <!-- ======================= -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+
+    <div class="container">
+
+      <a class="navbar-brand" href="#">
+        🧱 Mi Mundo LEGO
+      </a>
+
+
+      <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#menu">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="menu">
+
+        <ul class="navbar-nav ms-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#productos">
+              Productos
+            </a>
+          </li>
+
+          <li class="nav-item">
+
+            <a class="nav-link" href="#carrito">
+
+              🛒 Carrito
+
+              <span class="badge bg-warning text-dark"
+              id="badge">
+
+                0
+
+              </span>
+
+            </a>
+
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </nav>
+
+
+
+  <!-- ======================= -->
+  <!-- HERO -->
+  <!-- ======================= -->
+
+  <section class="hero">
+
+    <div class="hero-content">
+
+      <h1>
+        Bienvenido a Mi Mundo LEGO
+      </h1>
+
+      <p>
+        Dinosaurios 🦖 · Star Wars ⭐ · Titanes 🤖
+      </p>
+
+      <a href="#productos"
+      class="btn hero-btn">
+
+        Ver Colección
+
+      </a>
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- ======================= -->
+  <!-- PRODUCTOS -->
+  <!-- ======================= -->
+
+  <section class="container py-5"
+  id="productos">
+
+    <h2 class="titulo">
+      ✨ Colección LEGO ✨
+    </h2>
+
+
+    <div class="row g-4">
+
+
+      <!-- PRODUCTO 1 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+     <img
+         src="https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?q=80&w=1200&auto=format&fit=crop"
+         class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO SUPER MARIO BROTHERS
+            </h5>
+
+            <p class="precio">
+              $320.000
+            </p>
+
+            <p class="descripcion">
+              Dinosaurio gigante con mandíbula articulada.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO T-Rex"
+            data-precio="320000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 2 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://images.unsplash.com/photo-1608889825205-eebdb9fc5806?q=80&w=1200&auto=format&fit=crop"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO Darth Vader
+            </h5>
+
+            <p class="precio">
+              $450.000
+            </p>
+
+            <p class="descripcion">
+              El villano más poderoso de Star Wars.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO Darth Vader"
+            data-precio="450000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 3 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://images.unsplash.com/photo-1535378620166-273708d44e4c?q=80&w=1200&auto=format&fit=crop"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO Titan Robot
+            </h5>
+
+            <p class="precio">
+              $700.000
+            </p>
+
+            <p class="descripcion">
+              Robot gigante con cañones futuristas.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO Titan Robot"
+            data-precio="700000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 4 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=1200&auto=format&fit=crop"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO Stormtrooper
+            </h5>
+
+            <p class="precio">
+              $390.000
+            </p>
+
+            <p class="descripcion">
+              Soldado imperial listo para la batalla.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO Stormtrooper"
+            data-precio="390000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 5 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://images.unsplash.com/photo-1585366119957-e9730b6d0f60?q=80&w=1200&auto=format&fit=crop"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO Baby Yoda
+            </h5>
+
+            <p class="precio">
+              $420.000
+            </p>
+
+            <p class="descripcion">
+              El adorable Grogu con poderes Jedi.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO Baby Yoda"
+            data-precio="420000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 6 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://www.lego.com/cdn/cs/set/assets/blt3349f56c6f192e18/75192_Prod.png?format=webply&fit=bounds&quality=70&width=800&height=800&dpr=1.5"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO Millennium Falcon
+            </h5>
+
+            <p class="precio">
+              $950.000
+            </p>
+
+            <p class="descripcion">
+              La nave más famosa de Star Wars.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO Millennium Falcon"
+            data-precio="950000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PRODUCTO 7 -->
+      <div class="col-md-3">
+
+        <div class="card producto-card">
+
+          <img
+          src="https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?q=80&w=1200&auto=format&fit=crop"
+          class="card-img-top">
+
+          <div class="card-body">
+
+            <h5 class="card-title">
+              LEGO GUERRAS CLON
+            </h5>
+
+            <p class="precio">
+              $360.000
+            </p>
+
+            <p class="descripcion">
+              STAR WARS DEL EPISODIO 2 AL EPISODIO 3.
+            </p>
+
+            <button
+            class="btn btn-lego btn-agregar"
+            data-nombre="LEGO GUERRAS CLON"
+            data-precio="360000">
+
+              Agregar
+
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </div>
+
+  </section>
+
+
+
+
+  <!-- ======================= -->
+  <!-- CARRITO -->
+  <!-- ======================= -->
+
+  <section class="container py-5"
+  id="carrito">
+
+    <div class="carrito-box">
+
+      <h2 class="mb-4">
+        🛒 Carrito de Compras
+      </h2>
+
+
+      <ul class="list-group"
+      id="lista-carrito">
+
+        <li
+        class="list-group-item text-center"
+        id="msg-vacio">
+
+          Tu carrito está vacío 😢
+
+        </li>
+
+      </ul>
+
+
+      <div class="d-flex justify-content-between align-items-center mt-4">
+
+        <h3>
+
+          Total:
+          <span id="total">
+            $0
+          </span>
+
+        </h3>
+
+
+        <button class="btn btn-danger"
+        id="btn-vaciar">
+
+          Vaciar Carrito
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- FOOTER -->
+
+  <footer class="footer">
+
+    <h4>
+      🧱 Mi Mundo LEGO
+    </h4>
+
+    <p>
+      Proyecto realizado con HTML, CSS y JavaScript.
+    </p>
+
+  </footer>
+
+
+
+  <!-- JS -->
+  <script src="app.js"></script>
+
+</body>
+</html>

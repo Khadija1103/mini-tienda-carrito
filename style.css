@@ -1,0 +1,272 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Fredoka', sans-serif;
+  background:#f5f5f5;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+  background:#d01012;
+  padding:15px;
+}
+
+.navbar-brand{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.nav-link{
+  color:white !important;
+  font-size:18px;
+}
+
+.nav-link:hover{
+  color:#ffd500 !important;
+}
+
+
+/* HERO */
+
+.hero{
+
+  height:90vh;
+
+  background-image:
+  linear-gradient(rgba(0,0,0,0.5),
+  rgba(0,0,0,0.5)),
+
+  url('https://images.unsplash.com/photo-1518331647614-7a1f04cd34cf?q=80&w=1400&auto=format&fit=crop');
+
+  background-size:cover;
+
+  background-position:center;
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  text-align:center;
+
+  color:white;
+}
+
+.hero-content h1{
+  font-size:80px;
+  font-weight:bold;
+}
+
+.hero-content p{
+  font-size:25px;
+  margin:20px 0;
+}
+
+
+/* BOTÓN HERO */
+
+.hero-btn{
+
+  background:#ffd500;
+
+  color:black;
+
+  border:none;
+
+  padding:15px 30px;
+
+  border-radius:50px;
+
+  font-size:20px;
+
+  font-weight:bold;
+
+  transition:0.4s;
+}
+
+.hero-btn:hover{
+
+  background:#d01012;
+
+  color:white;
+
+  transform:scale(1.1);
+
+}
+
+
+/* TITULO */
+
+.titulo{
+
+  text-align:center;
+
+  font-size:60px;
+
+  margin-bottom:50px;
+
+  color:#d01012;
+
+  font-weight:bold;
+}
+
+
+/* CARDS */
+
+.producto-card{
+
+  border:none;
+
+  border-radius:25px;
+
+  overflow:hidden;
+
+  transition:0.5s;
+
+  box-shadow:
+  0 10px 25px rgba(0,0,0,0.15);
+}
+
+.producto-card:hover{
+
+  transform:
+  translateY(-10px)
+  scale(1.03);
+}
+
+
+/* IMÁGENES */
+
+.producto-card img{
+
+  height:250px;
+
+  object-fit:cover;
+
+  transition:0.5s;
+}
+
+.producto-card:hover img{
+
+  transform:scale(1.1);
+}
+
+
+/* BODY CARD */
+
+.card-body{
+  text-align:center;
+  padding:25px;
+}
+
+
+/* TITULO */
+
+.card-title{
+  font-size:28px;
+  font-weight:bold;
+}
+
+
+/* PRECIO */
+
+.precio{
+  color:#0d6efd;
+  font-size:24px;
+  font-weight:bold;
+}
+
+
+/* DESCRIPCIÓN */
+
+.descripcion{
+
+  opacity:0;
+
+  max-height:0;
+
+  overflow:hidden;
+
+  transition:0.5s;
+
+  color:#555;
+}
+
+
+/* HOVER DESCRIPCIÓN */
+
+.producto-card:hover .descripcion{
+
+  opacity:1;
+
+  max-height:200px;
+
+  margin:15px 0;
+}
+
+
+/* BOTÓN LEGO */
+
+.btn-lego{
+
+  background:#ffd500;
+
+  color:black;
+
+  border:none;
+
+  padding:12px 25px;
+
+  border-radius:50px;
+
+  font-weight:bold;
+
+  transition:0.4s;
+}
+
+.btn-lego:hover{
+
+  background:#d01012;
+
+  color:white;
+
+  transform:scale(1.1);
+}
+
+
+/* CARRITO */
+
+.carrito-box{
+
+  background:white;
+
+  padding:40px;
+
+  border-radius:25px;
+
+  box-shadow:
+  0 10px 30px rgba(0,0,0,0.15);
+}
+
+
+/* FOOTER */
+
+.footer{
+
+  background:#d01012;
+
+  color:white;
+
+  text-align:center;
+
+  padding:40px;
+
+  margin-top:50px;
+}
